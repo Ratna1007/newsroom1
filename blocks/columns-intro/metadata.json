@@ -1,0 +1,38 @@
+{
+  "variantName": "columns-intro",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-06-09T12:08:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://newsroom.auspost.com.au/",
+    "originPage": "Australia Post Newsroom home page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "wide",
+    "purpose": "page-intro",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "featured article column + image column + quick-links column",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "page intro rows mixing featured article, image and a link list",
+      "three-up side-by-side panels of differing content types",
+      "general multi-column informational layouts"
+    ],
+    "notSuitableFor": [
+      "uniform repeating items (use cards)",
+      "full-width hero banners"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-09T12:08:00.000Z"
+  }
+}

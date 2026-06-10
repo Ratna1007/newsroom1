@@ -1,0 +1,37 @@
+{
+  "variantName": "columns-promo",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-06-09T12:08:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://newsroom.auspost.com.au/",
+    "originPage": "Australia Post Newsroom home page",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "wide",
+    "purpose": "promo-band",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image column + heading and CTA column",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "two-column promo/advert bands with an image and a call-to-action",
+      "feature callouts pairing an image with a heading and button"
+    ],
+    "notSuitableFor": [
+      "uniform repeating items (use cards)",
+      "three-or-more-column intro layouts (use columns-intro)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-09T12:08:00.000Z"
+  }
+}

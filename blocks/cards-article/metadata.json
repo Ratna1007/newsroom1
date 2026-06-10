@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-article",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-06-09T12:08:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://newsroom.auspost.com.au/",
+    "originPage": "Australia Post Newsroom home page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "news-article-grid",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + title + extract + read-more link",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "news/article listing grids",
+      "latest stories or press release rounds-ups",
+      "any uniform set of items with image, title, summary and a read-more link"
+    ],
+    "notSuitableFor": [
+      "cards without images",
+      "single feature highlights",
+      "side-by-side mixed content (use columns)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-09T12:08:00.000Z"
+  }
+}

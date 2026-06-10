@@ -1,20 +1,126 @@
 footer {
-  background-color: var(--light-color);
+  background-color: #fff;
   font-size: var(--body-font-size-xs);
 }
 
 footer .footer > div {
+  width: 100%;
+}
+
+/* about + social bands center their content to 1152px */
+footer .footer .footer-about,
+footer .footer .footer-social {
+  box-sizing: border-box;
   margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+  max-width: 1152px;
+  padding: 20px 16px;
 }
 
 footer .footer p {
   margin: 0;
 }
 
+footer .footer ul,
+footer .footer li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* About statement band */
+footer .footer .footer-about p {
+  color: var(--text-color);
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* Social / copyright band — flex on the inner content wrapper */
+footer .footer .footer-social .default-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+footer .footer .footer-copyright {
+  color: var(--text-color);
+  font-size: 12px;
+}
+
+footer .footer .footer-copyright a:any-link {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+footer .footer .footer-social-list {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+footer .footer .footer-social-list a:any-link {
+  display: inline-flex;
+  transition: opacity 0.2s ease;
+}
+
+footer .footer .footer-social-list a:hover {
+  opacity: 0.8;
+}
+
+footer .footer .footer-social-list img {
+  width: 29px;
+  height: 29px;
+  display: block;
+}
+
+/* Acknowledgement of Country band (dark, full-width) */
+footer .footer .footer-acknowledgement {
+  max-width: none;
+  background-color: #30303c;
+  color: #fff;
+  padding: 28px 16px;
+}
+
+footer .footer .footer-acknowledgement .default-content-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+footer .footer .footer-acknowledgement p {
+  margin: 0;
+}
+
+footer .footer .footer-acknowledgement p:first-child {
+  flex: 0 0 auto;
+}
+
+footer .footer .footer-acknowledgement img {
+  width: 92px;
+  height: auto;
+  display: block;
+}
+
+footer .footer .footer-acknowledgement p:last-child {
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
 @media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+  footer .footer .footer-acknowledgement {
+    padding: 28px max(16px, calc((100% - 1152px) / 2));
+  }
+}
+
+/* Mobile (< 600px): acknowledgement stacks image above text, centered */
+@media (width < 600px) {
+  footer .footer .footer-acknowledgement .default-content-wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
   }
 }

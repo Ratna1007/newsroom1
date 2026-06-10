@@ -1,0 +1,38 @@
+{
+  "variantName": "hero-welcome",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-06-09T12:08:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://newsroom.auspost.com.au/",
+    "originPage": "Australia Post Newsroom home page",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "background image + heading + paragraphs + 1 CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "home page welcome banners",
+      "landing pages with a full-width background image",
+      "section intros with a prominent headline and single CTA"
+    ],
+    "notSuitableFor": [
+      "text-only pages with no background image",
+      "pages needing multiple stacked content elements below the headline"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-09T12:08:00.000Z"
+  }
+}
